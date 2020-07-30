@@ -1,0 +1,140 @@
+/* RESET CSS */
+
+body,div,fieldset,input,img,a,a:hover,select,li ,ul, p, h1, h2, h3, h4, h5, h6, iframe
+{
+	margin:0;
+	padding:0;
+	border:0;
+	text-decoration:none;
+	outline:none;
+	list-style:none;
+	vertical-align:bottom;
+	white-space:normal;
+}
+/*GLOBAL CSS*/
+body {
+    background-color: #ffffff;
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+	font-family: Arial, sans-serif;
+}
+
+.title-page {
+	text-align: center;
+	color: #666666;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.content {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+a:hover {
+	color: #ff7615;
+}
+/*INDEX*/
+.description {
+	font-size: 18px;
+	color: #666666;
+	margin-top: 20px;
+}
+.button-presente {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: -moz-center;
+	text-align: -webkit-center;
+	margin-top: 40px;
+}
+.info-text {
+	margin: 3em;
+    color: #666666;
+    font-size: 18px;
+	font-family: Arial, sans-serif;
+	margin-top: 10px;
+}
+.presente {
+	margin-top: 20px;
+}
+/*PARTENAIRE*/
+.img-partenaire {
+	width: 250px;
+	height: 60px;
+	position: absolute;
+}
+.block-partenaire {
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+.description-partenaire {
+	color: #666666;
+	font-size: 20px;
+	padding-left: 260px;
+}
+a:hover {
+	color: #ff7615;
+}
+.sponsor-join {
+	color: #666666;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 120px;
+}
+
+@media screen and (max-width: 800px) 
+{
+	.img-partenaire 
+	{
+		width: 190px;
+		height: 50px;
+		position: unset;
+	}
+	.description-partenaire 
+	{
+		font-size: 19px;
+		padding-left: 0px;
+		padding-top: 15px;
+	}
+}
+/*NOS JEUX*/
+#proposer-jeux {
+	background-color: #ff7615;
+	color: #666666;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	border: 0;
+	border-radius: 3px;
+	padding: 6px;
+}
+.img-jeux {
+	width: 200px;
+	height: 300px;
+	margin: 40px;
+	margin-left: 0px;
+}
+#global-jeux {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.join-game {
+	color: #666666;
+}
+.rules {
+	color: #666666;
+	text-align: center;
+	font-size: 23px;
+	margin-top: 50px;
+}
+.rules-list {
+	list-style: disc;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	color: #666666;
+	list-style-position: inside;
+}
